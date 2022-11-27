@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans  
+    xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xmlns:p="http://www.springframework.org/schema/p"  
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">  
+  
+<bean id="obj" class="com.spring.sample.Employee">  
+<property name="id">  
+<value>01</value>  
+</property>  
+<property name="name">  
+<value>Name1</value>  
+</property>  
+<property name="city">  
+<value>UP</value>  
+</property>  
+  
+</bean>  
+
+<bean id="obj1" class="com.spring.sample.Employee">  
+<property name="id">  
+<value>02</value>  
+</property>  
+<property name="name">  
+<value>Name2</value>  
+</property>  
+<property name="city">  
+<value>MP</value>  
+</property>  
+  
+</bean>  
+
+<bean id="obj2" class="com.spring.sample.Employee">  
+<property name="id">  
+<value>03</value>  
+</property>  
+<property name="name">  
+<value>Name3</value>  
+</property>  
+<property name="city">  
+<value>WB</value>  
+</property>  
+  
+</bean>  
+
+  
+</beans>  

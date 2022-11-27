@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>    
+<!DOCTYPE hibernate-configuration PUBLIC  
+          "-//Hibernate/Hibernate Configuration DTD 5.3//EN"  
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">  
+    
+<hibernate-configuration>    
+    
+    <session-factory>    
+        <property name="show_sql">true</property>    
+        <property name="hbm2ddl.auto">update</property>    
+        <property name="dialect">org.hibernate.dialect.Oracle9Dialect</property>    
+        <property name="connection.url">jdbc:oracle:thin:@localhost:1521:xe</property>    
+        <property name="connection.username">system</property>    
+        <property name="connection.password">jtp</property>    
+        <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>    
+        <property name="cache.use_second_level_cache">true</property>   
+        <property name="cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>  
+        <mapping class="com.hibernate.cache.Employee"/>  
+    </session-factory>    
+</hibernate-configuration>    
