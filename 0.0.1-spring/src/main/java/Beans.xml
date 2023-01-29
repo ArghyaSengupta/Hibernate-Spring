@@ -8,5 +8,8 @@
 	<bean id="helloWorld" class="com.spring.practice.HelloWorld">
 		<property name="message" value="Hello World!" />
 	</bean>
+	<bean id="helloWorld1" class="com.spring.practice.HelloWorld">
+		<property name="message" value="Hello World!" />
+	</bean>
 
 </beans>

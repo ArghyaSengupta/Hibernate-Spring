@@ -4,6 +4,7 @@ public class Employee2{
 private int id;  
 private String name;  
   
+//constructor based injection
 //no arg conctructor : no use
 public Employee2() {System.out.println("def cons");}  
   
